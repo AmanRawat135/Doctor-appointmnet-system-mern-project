@@ -53,7 +53,7 @@ const changeAccountStatusController = async (req, res) => {
     await user.save();
     res.status(201).send({
       success: true,
-      message: "hello Account Status Updated",
+      message: "Account Status Updated",
       data: doctor,
     });
   } catch (error) {
