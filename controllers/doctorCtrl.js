@@ -28,7 +28,7 @@ const updateProfileController = async (req, res) => {
     );
     res.status(201).send({
       success: true,
-      message: "hello Doctor Profile Updated",
+      message: "Doctor Profile Updated",
       data: doctor,
     });
   } catch (error) {
